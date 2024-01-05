@@ -5,6 +5,7 @@ using namespace std;
 
 int findSuffix(char string[],int length){
 	int start=0,end;
+	cout<<"suffix are : ";
 	
 	for(start=0;start<length;++start){
 	   for(end=start;end<length;++end){

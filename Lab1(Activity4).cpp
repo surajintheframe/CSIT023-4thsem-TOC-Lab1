@@ -3,6 +3,7 @@ using namespace std;
 //Given a string 's' find it's all sub string.
 int findSubstring(char string[],int length){
 	int start=0,end=length;
+	cout<<"substrings are : ";
 	
 //this works but don't know how :)
 	for(start=0;start<length;++start){

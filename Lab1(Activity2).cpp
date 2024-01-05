@@ -22,7 +22,7 @@ int reverseString(char string[],int length){
 		j++;
 	};
 	revString[length] = '\0';
-	cout<<revString;
+	cout<<"reverse = "<<revString;
 };
 
 int main(){

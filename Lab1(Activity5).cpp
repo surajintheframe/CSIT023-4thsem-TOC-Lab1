@@ -7,6 +7,7 @@ using namespace std;
 
 int findprefix(char string[],int length){
 	int start=0,end;
+	cout<<"prefix are : ";
 	
 	//for(start=0;start<length;++start){
 	   for(end=0;end<length;++end){

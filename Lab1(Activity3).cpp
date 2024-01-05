@@ -9,7 +9,8 @@ int concateString(char string1[],char string2[],int length1,int length2){
 		string1[length1]=string2[i];
 		length1++;
 	}
-	cout<<string1;
+	cout<<"Length is of string \""<<string<< "\" is "<<length<<endl;;
+	cout<<"concatenation of  string1 ="<<string1;
 }
 int findLength(char string[]){
 	int length = 0;
